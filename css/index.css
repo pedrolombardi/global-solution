@@ -1,0 +1,39 @@
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #e9cbfe; /* Cor de fundo rosa */
+    padding: 50px; /* Espaçamento em volta da seção */
+  }
+  .left-section {
+    flex-basis: 50%; /* Metade da largura disponível */
+    padding-right: 30px; /* Espaçamento à direita */
+  }
+  .title {
+    background-color: #e9cbfe; /* Cor de fundo azul */
+    color: black; /* Cor de texto branco */
+    padding: 10px;
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-size: larger;
+  }
+  .text {
+    background-color: #e9cbfe; /* Cor de fundo azul */
+    color: black; /* Cor de texto branco */
+    padding: 10px;
+    margin-bottom: 30px; /* Espaçamento abaixo do texto */
+  }
+  .image-left {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+  }
+  .right-section {
+    flex-basis: 50%; /* Metade da largura disponível */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem na direita */
+    align-items: center; /* Alinha a imagem verticalmente */
+    padding-top: 50px;
+  }
+  .image-right {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+  }
