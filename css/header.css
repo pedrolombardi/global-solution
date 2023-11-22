@@ -1,0 +1,17 @@
+.header {
+    background-color: white; /* Rosa do projeto */
+    border-bottom-left-radius: 20%; /* Arredondado no canto inferior esquerdo */
+    border-bottom-right-radius: 20%; /* Arredondado no canto inferior direito */
+  }
+  .navbar-brand img {
+    height: 50px; /* Altura do logotipo, ajuste conforme necessário */
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .nav-link {
+    color: black !important; 
+  }
+  .nav-link:hover {
+    color:  #4976fb !important; 
+  }
