@@ -1,42 +1,42 @@
 .footer {
-    background-color: #4976fb; /* Azul do projeto */
-    color: white; /* Texto branco */
-    padding: 30px 0; /* Aumento do espaçamento superior e inferior para tornar o rodapé mais alto */
-    border-top-left-radius: 40px; /* Arredondado no canto superior esquerdo */
-    border-top-right-radius: 40px; /* Arredondado no canto superior direito */
+    background-color: #4976fb; 
+    color: white; 
+    padding: 30px 0; 
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px; 
   }
   .container {
     display: flex;
-    justify-content: space-between; /* Espaço entre os itens alinhados às margens esquerda e direita */
-    align-items: center; /* Alinhamento vertical ao centro */
+    justify-content: space-between; 
+    align-items: center; 
   }
   .footer img {
-    height: 50px; /* Altura das imagens, ajuste conforme necessário */
-    margin-right: 10px; /* Espaço à direita de cada imagem */
+    height: 50px; 
+    margin-right: 10px; 
   }
   .footer-nav {
-    list-style: none; /* Remove os estilos de lista padrão */
-    padding-left: ; /* Remove o padding à esquerda */
-    margin: 0; /* Remove a margem padrão */
-    display: flex; /* Cria um layout flexível */
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0; 
+    display: flex; 
   }
   .footer-nav li {
-    padding: 0 10px; /* Espaçamento à esquerda e à direita */
+    padding: 0 10px; 
   }
   .footer-nav li:not(:last-child):after {
-    content: '|'; /* Adiciona um separador */
-    margin-left: 50px; /* Espaço após o item do menu */
-    color: white; /* Cor do separador */
+    content: '|'; 
+    margin-left: 50px; 
+    color: white; 
   }
   .footer-nav a {
-    color: white; /* Links brancos */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    transition: color 0.3s; /* Transição suave para o hover */
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
   }
   .footer-nav a:hover {
-    color: #f2ffa8; /* Amarelo do projeto */
+    color: #f2ffa8; 
   }
-  /* Certifique-se de que o conteúdo principal não fique oculto pelo rodapé fixo */
+  
   body {
-    padding-bottom: 50px; /* Ajuste conforme a nova altura do seu rodapé */
+    padding-bottom: 100px; 
   }
