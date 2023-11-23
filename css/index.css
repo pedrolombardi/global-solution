@@ -1,3 +1,8 @@
+* {
+  border: 0;
+  padding: 0;
+}
+
 .home-section {
     display: flex;
     justify-content: center;
@@ -10,7 +15,6 @@
     padding-right: 30px; 
   }
   .title {
-    background-color: #e9cbfe; /
     color: black; 
     padding: 10px;
     margin-bottom: 10px; 
@@ -68,6 +72,22 @@
   .text-block {
     margin-bottom: 20px; /
   }
+
+  #img3 img {
+    border-radius: 0 0 150px 0;
+  }
+
+  #column {
+    flex-direction: column;
+  }
+
+  .links-section > * {
+    margin: 40px 0px;
+  }
+
+  .members-section{
+    justify-content: space-around !important;
+  }
   
   @media (max-width: 768px) {
     .curved-shape {
@@ -77,4 +97,3 @@
     }
   }
   
-  </main>
