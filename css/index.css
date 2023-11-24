@@ -79,6 +79,7 @@
 
   #column {
     flex-direction: column;
+    align-items: center;
   }
 
   .links-section > * {
