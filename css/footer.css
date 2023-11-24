@@ -11,7 +11,7 @@
     align-items: center; 
   }
   .footer img {
-    height: 50px; 
+    height: 70px; 
     margin-right: 10px; 
   }
   .footer-nav {
@@ -38,5 +38,5 @@
   }
   
   body {
-    padding-bottom: 100px; 
+    padding-bottom: 0px; 
   }

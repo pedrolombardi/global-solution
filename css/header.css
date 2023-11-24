@@ -1,6 +1,4 @@
-.header{ 
-  background-color: #e9cbfe;
-}
+
 .navbar {
   background-color: white;
   border-bottom-left-radius:  40px;
@@ -21,4 +19,8 @@
   }
   .nav-link:hover {
     color:  #4976fb !important; 
+  }
+
+  body {
+    padding-top: 89px; 
   }
