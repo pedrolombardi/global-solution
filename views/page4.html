@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    
+    <script src="../js/script.js"></script>
   </head>
   
   <body>
@@ -56,10 +56,10 @@
                 Suas causas se assentam em múltiplos fatores de risco, com origens sociais, físicas, econômicas e ambientais.
                 
             </div>
-            <img src="../assets/img/dcnt-1.png" alt="dcnt1" class="image-left" style="width: 800px;">
+            <img src="../assets/img/dcnt-1.png" alt="dcnt1" class="image">
           </div>
           <div class="right-section">
-            <img src="../assets/img/dcnt2.png" alt="dcnt2" class="image-right" style="width: 1200px;">
+            <img src="../assets/img/dcnt2.png" alt="dcnt2" class="image">
           </div>
         </div>
         </div>
@@ -88,29 +88,33 @@
                     <div class="content-block text-block"></div>
                      
                     Dados da última pesquisa Vigitel, realizada pela Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde ao longo de 2019, mostram um cenário preocupante:
-                    <ul style="line-height: 40px;">
-                        <li>
-                           <strong>24,5%</strong> da população brasileira tem diagnóstico de <strong>hipertensão</strong>
-                        </li>
-                        <li>
-                            <strong>7,4%</strong> tem diagnóstico de <strong>diabetes</strong>
-                        </li>
-                        <li>
-                            <strong>9,8%</strong> dos adultos são <strong>fumantes</strong>
-                        </li>
-                        <li>
-                            <strong>55,4%</strong> dos adultos tem <strong>excesso de peso</strong>
-                        </li>
-                        <li>
-                            <strong>20,3%</strong> são <strong>obesos</strong>
-                        </li>
-                        <li>
-                            <strong>44,8%</strong> não alcançaram um nível suficiente de prática de atividade física
-                        </li>
-                        <li>
-                            <strong>18,8%</strong> fizeram uso abusivo de álcool nos 30 dias antecedentes à pesquisa
-                        </li>
-                    </ul>
+                    <div class="carousel-main" id="carousel-main">
+                      <button class="carousel-button" id="carousel-button" onclick="carousel(false)" data-carousel-button><</button>
+                      <ul id="carousel-items">
+                        <li data-active>
+                          <strong>24,5%</strong> da população brasileira tem diagnóstico de <strong>hipertensão</strong>
+                       </li>
+                       <li>
+                           <strong>7,4%</strong> tem diagnóstico de <strong>diabetes</strong>
+                       </li>
+                       <li>
+                           <strong>9,8%</strong> dos adultos são <strong>fumantes</strong>
+                       </li>
+                       <li>
+                           <strong>55,4%</strong> dos adultos tem <strong>excesso de peso</strong>
+                       </li>
+                       <li>
+                           <strong>20,3%</strong> são <strong>obesos</strong>
+                       </li>
+                       <li>
+                           <strong>44,8%</strong> não alcançaram um nível suficiente de prática de atividade física
+                       </li>
+                       <li>
+                           <strong>18,8%</strong> fizeram uso abusivo de álcool nos 30 dias antecedentes à pesquisa
+                       </li>
+                      </ul>
+                      <button class="carousel-button" id="carousel-button" onclick="carousel(true)" data-carousel-button>></button>
+                    </div>
                     
                 </div>
                   </div>
