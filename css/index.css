@@ -84,6 +84,20 @@ button, input[type="submit"], input[type="reset"] {
     margin-bottom: 20px; /
   }
 
+  .link-text {
+    background-color: #4976fb;
+  }
+
+  .link-text a {
+    color: white;
+  }
+
+  .link-text a:hover {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
   #img3 img {
     border-radius: 0 0 150px 0;
     margin-left: -20px;
