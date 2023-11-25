@@ -1,6 +1,8 @@
-body {
+* {
   border: 0;
   padding: 0;
+  font-family: 'Manrope', sans-serif !important;
+  color: rgb(40,40,40);
 }
 
 button, input[type="submit"], input[type="reset"] {
@@ -24,15 +26,14 @@ button, input[type="submit"], input[type="reset"] {
     flex-basis: 50%; 
     padding-right: 30px; 
   }
-  .title {
-    color: black; 
+  .title { 
     padding: 10px;
     margin-bottom: 10px; 
     font-size: larger;
+    font-weight: bolder;
   }
   .text {
-    background-color: #e9cbfe; 
-    color: black; 
+    background-color: #e9cbfe;  
     padding: 10px;
     margin-bottom: 30px; 
   }
@@ -90,7 +91,9 @@ button, input[type="submit"], input[type="reset"] {
   }
 
   #column {
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -100,6 +103,61 @@ button, input[type="submit"], input[type="reset"] {
 
   .members-section{
     justify-content: space-around !important;
+  }
+
+  form {
+    background-color: #e9cbfe;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  form input,textarea {
+    border: none;
+    resize: none;
+    background-color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    width:40vw;
+  }
+
+  form textarea {
+    height:20vw
+  }
+
+  form button {
+    height:50px;
+    background-color:#4976fb;
+    border-radius: 5px;
+    padding: 5px;
+    transition:0.5s;
+    margin:5px;
+    width:100%
+  }
+
+  #form-sent {
+    height:50px;
+    background-color:#49fb61;
+    border-radius: 5px;
+    padding: 5px;
+    transition:0.15s;
+    margin:5px;
+    width:100%;
+    display:none
+  }
+
+  #form-sent:active {
+    background-color: red;
+  }
+
+  form button:hover{
+    background-color:#e9cbfe;
+  }
+
+  form button:active{
+    background-color:#9500ff
   }
 
   .carousel-main {

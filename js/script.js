@@ -21,6 +21,17 @@ function carousel (next) {
     items.children[index].dataset.active = true
     delete currentItem.dataset.active
 }
-// Função 3:
-
-// Função 4:
+// Função 3: validar formulário
+document.getElementById("form").addEventListener("submit", function(event){
+      event.preventDefault()
+      var formContent = {
+        name: document.getElementById("form-name").value,
+        email: formEmail=(document.getElementById("form-email").value),
+        phone: formPhone=(document.getElementById("form-phone").value),
+        text: formText=(document.getElementById("form-text").value),
+      }
+      console.log(formContent);
+      document.getElementById("form-send").style.display = "none"
+      document.getElementById("form-sent").style.display = "block"
+    });
+// Função 4: modo escuro (dark mode)

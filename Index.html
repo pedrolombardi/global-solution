@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Femininō - Home</title>
   <link rel="icon" href="./assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="./js/script.js"></script>
+  
 </head>
 
 <body>
@@ -210,10 +213,25 @@
   
     <div class="title-section">
       <!-- Título 5 -->
-      <div class="title" id="Contato">TITULO 5<br>Fale Conosco</div>
+      
     </div>
 
-    <div class="form col-12">FORM FALE CONOSCO</div>
+    <form class="form row" id="form">
+      
+      <div id="column">
+        <div class="title" id="Contato">Fale Conosco</div>
+        <input type="text" id="form-name" name="nome" placeholder="Seu nome (obrigatório)" required>
+        <input type="email" id="form-email" name="email" placeholder="Seu e-mail (obrigatório)" required>
+        <input type="tel" id="form-phone" placeholder="Seu telefone" name="telefone">
+      </div>
+      <div id="column">
+        <textarea id="form-text" name="mensagem" rows="4" required></textarea>
+        <button type="submit" id="form-send">Enviar</button>
+        <button id="form-sent">Enviado!</button>
+      </div>
+
+      
+    </form>
 
   </div>
 
@@ -232,6 +250,7 @@
     </div>
   </footer>
 
+  <script src="./js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
