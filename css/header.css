@@ -1,7 +1,12 @@
-
+:root{
+  --main-color: #e9cbfe;
+  --secondary-color:#4976fb;
+  --text-color:rgb(40,40,40);
+  --back-color: white;
+}
 
 .navbar {
-  background-color: white;
+  background-color: var(--back-color);
   border-bottom-left-radius:  40px;
   border-bottom-right-radius: 40px;
   padding: 0.25rem 3rem !important;
@@ -25,15 +30,15 @@
     border: none;
   }
   .nav-link {
-    color: black !important; 
+    color: var(--text-color) !important; 
   }
   .nav-link:hover {
-    color:  #4976fb !important; 
+    color:  var(--secondary-color) !important; 
   }
 
   body {
     padding-top: 90px;
-    box-shadow: inset 0 90px 0 0 #e9cbfe;
+    box-shadow: inset 0 90px 0 0 --main-color;
   }
 
 .small-header img {

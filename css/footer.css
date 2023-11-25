@@ -1,5 +1,12 @@
+:root{
+  --main-color: #e9cbfe;
+  --secondary-color:#4976fb;
+  --text-color:rgb(40,40,40);
+  --back-color: white;
+}
+
 .footer {
-    background-color: #4976fb; 
+    background-color: var(--secondary-color); 
     color: white; 
     padding: 30px 0; 
     border-top-left-radius: 40px;
@@ -11,7 +18,7 @@
     align-items: center; 
   }
   .footer img {
-    height: 70px; 
+    height: 40px; 
     margin-right: 10px; 
   }
   .footer-nav {

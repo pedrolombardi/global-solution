@@ -35,3 +35,13 @@ document.getElementById("form").addEventListener("submit", function(event){
       document.getElementById("form-sent").style.display = "block"
     });
 // Função 4: modo escuro (dark mode)
+function dark() {
+    var toggleDark = false
+    if (toggleDark == false) {
+        document.documentElement.style.setProperty('--main-color', '#4976fb')
+        document.documentElement.style.setProperty('--text-color', 'white')
+        document.documentElement.style.setProperty('--back-color', 'rgb(40,40,40)')
+        toggleDark = true
+    }
+    ;
+}
